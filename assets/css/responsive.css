@@ -1,0 +1,284 @@
+/* PC L */
+@media (min-width: 1024px) {
+
+
+    .hide-on-pc { 
+        display: none;
+    }
+}
+
+@media (max-width: 1113px) {
+
+
+    .text-al {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1300px) {
+    .category__submenu-E-item {
+        max-width: 100%;
+        display: block;
+        padding: 1rem;
+        margin: 3rem 6rem 1rem;
+    }
+
+    .parallax-cards {
+        display: grid;
+        grid-template-columns: repeat(12, 40vw);
+        gap: 2rem;
+    }
+
+    .checkTravel__item input {
+        width: 18rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .cards {
+        grid-template-columns: repeat(12, 23.68vw);
+        gap: 2rem;
+    }
+}
+/* mobile and tablet */
+@media (max-width: 1023px) {
+    :root {
+        --header-height: 6.9rem;
+        --navbar-height: 0;
+        --category-height: 0;
+    }
+    .header {
+        display:block;
+        background-color: #3fd0d4;
+    }
+
+    .btn__move {
+        display:none;
+    }
+
+    .members__btn {
+        display: none;
+    }
+
+    .section__image1,
+    .section__image2 {
+        display: none;
+    }
+    .pictures__btn {
+        display: none;
+    }
+
+    .hide-on-mobile-tablet { 
+        display: none;
+    }
+    
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    .checkTravel__item input {
+        width: 8rem;
+    }
+
+    .cards {
+        grid-template-columns: repeat(12, 24vw);
+        gap: 2rem;
+    }
+
+    .parallax-cards {
+        display: grid;
+        grid-template-columns: repeat(12, 50vw);
+        gap: 2rem;
+    }
+    
+    .hide-on-tablet { 
+        display: none;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 850px) {
+
+
+    .cards {
+        grid-template-columns: repeat(12, 32vw);
+        gap: 2rem;
+    }
+    
+}
+
+/* mobile */
+@media (min-width: 500px) and (max-width: 739px) {
+
+    .checkTravel__item i {
+        padding: 2.7rem 0;
+    }
+
+
+    .checkTravel__item input {
+        font-size: 1.6rem;
+        width: 2rem;
+    }
+
+    .parallax-item h2 {
+        font-size: 3rem;
+    }
+    
+    .parallax-item h1 {
+        font-size: 4rem;
+    }
+    
+    .parallax-item p {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .parallax-item2 img,
+    .parallax-item2 i {
+        margin-top: 8rem;
+    }
+
+    .slideshow__content h3,
+    .section__title p,
+    .parallax-item p{
+        font-size: 1.2rem;
+    }
+
+    .cards {
+        grid-template-columns: repeat(12, 49vw);
+        gap: 2rem;
+    }
+
+    .parallax-cards {
+        display: grid;
+        grid-template-columns: repeat(12, 100vw);
+        gap: 2rem;
+    }
+
+
+
+    .hide-on-mobile { 
+        display: none;
+    }
+}
+
+
+
+
+@media (max-width: 500px) {
+
+    .checkTravel__item i {
+        padding: 1.5rem 0;
+    }
+    .slideshow__content h3,
+    .section__title p,
+    .parallax-item p{
+        font-size: 1.2rem;
+    }
+
+    .section__title h1 {
+        font-size: 14vw;
+        line-height: 5rem;
+    }
+
+    .section__title h3 {
+        font-size: 3rem;
+    }
+    .parallax-item h2 {
+        font-size: 3rem;
+    }
+    
+    .parallax-item h1 {
+        font-size: 15vw;
+        line-height: 7rem;
+    }
+    
+    .parallax-item p {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .parallax-item2 img,
+    .parallax-item2 i {
+        margin-top: 13rem;
+    }
+
+    .checkTravel__item input {
+        font-size: 1.6rem;
+        width: 1rem;
+    }
+
+    .cards {
+        grid-template-columns: repeat(12, 100vw);
+        gap: 2rem;
+    }
+
+    .parallax-cards {
+        display: grid;
+        grid-template-columns: repeat(12, 100vw);
+        gap: 2rem;
+    }
+
+    .blog__banner-content {
+        width: 34rem;
+    }
+
+    .blog__banner-content h1 {
+        font-size: 3rem;
+    }
+
+
+    .section__sub button {
+        padding: 1.2rem 6rem;
+        font-size: 1.4rem;
+
+    }
+}
+
+@media (min-width: 330px) and (max-width: 500px) {
+    .cards {
+        grid-template-columns: repeat(12, 60vw);
+        gap: 2rem;
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 450px) {
+
+    .blog__banner-content {
+        width: 38rem;
+    }
+
+    .blog__banner-content h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 500px) {
+
+    .blog__banner-content {
+        width: 42rem;
+    }
+
+    .blog__banner-content h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 330px) {
+
+    .blog__title {
+        font-size: 3rem;
+    }
+
+    .blog__content {
+        font-size: 1.6rem;
+    }
+    .blog__banner-content {
+        width: 28rem;
+    }
+
+    .blog__banner-content h1 {
+        font-size: 2.5rem;
+    }
+}
